@@ -1,0 +1,10 @@
+.gitignore
+.github/
+.vscode/
+.vscodeignore
+*.md
+*.png
+images/
+sample.*
+tests/
+node_modules/
