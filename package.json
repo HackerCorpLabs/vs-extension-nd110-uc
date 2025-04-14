@@ -2,7 +2,12 @@
   "name": "nd-110-microcode",
   "displayName": "ND-110 MicroCode",
   "description": "Syntax highlighting for ND-110 MicroCode",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "hackercorplabs",
+  "repository": {
+     "type": "git",
+     "url": "https://github.com/hackercorplabs/vs-extension-nd110-uc"
+  },
   "engines": {
     "vscode": "^1.73.0"
   },
