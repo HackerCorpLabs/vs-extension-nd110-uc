@@ -1,0 +1,6809 @@
+{
+  "generatedFrom": "defs/tokens/nd110-tokens.yaml + nd120-tokens.yaml + defs/runtime/data-flow.yaml",
+  "generatedAt": "2026-04-17T14:02:38.141Z",
+  "tokenCount": 369,
+  "tokens": {
+    "A,0": {
+      "name": "A,0",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 0",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "A,1": {
+      "name": "A,1",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 1",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "010000"
+      }
+    },
+    "A,10": {
+      "name": "A,10",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 10",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "100000"
+      }
+    },
+    "A,11": {
+      "name": "A,11",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 11",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "110000"
+      }
+    },
+    "A,12": {
+      "name": "A,12",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 12",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "120000"
+      }
+    },
+    "A,13": {
+      "name": "A,13",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 13",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "130000"
+      }
+    },
+    "A,14": {
+      "name": "A,14",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 14",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "140000"
+      }
+    },
+    "A,15": {
+      "name": "A,15",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 15",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "150000"
+      }
+    },
+    "A,16": {
+      "name": "A,16",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 16",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "160000"
+      }
+    },
+    "A,17": {
+      "name": "A,17",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 17",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "170000"
+      }
+    },
+    "A,2": {
+      "name": "A,2",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 2",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "020000"
+      }
+    },
+    "A,3": {
+      "name": "A,3",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 3",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "030000"
+      }
+    },
+    "A,4": {
+      "name": "A,4",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 4",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "040000"
+      }
+    },
+    "A,5": {
+      "name": "A,5",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 5",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "050000"
+      }
+    },
+    "A,6": {
+      "name": "A,6",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 6",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "060000"
+      }
+    },
+    "A,7": {
+      "name": "A,7",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 7",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "070000"
+      }
+    },
+    "A,A": {
+      "name": "A,A",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 5. USED TO ADDR. THE A-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "050000"
+      }
+    },
+    "A,B": {
+      "name": "A,B",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 3. USED TO ADDR. THE B-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "030000"
+      }
+    },
+    "A,D": {
+      "name": "A,D",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 1. USED TO ADDR. THE D-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "010000"
+      }
+    },
+    "A,L": {
+      "name": "A,L",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 4. USED TO ADDR. THE L-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "040000"
+      }
+    },
+    "A,LC": {
+      "name": "A,LC",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS VALUE OF 'LOOP COUNTER' TWO MICROINSTRUCTIONS AGO",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000030",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "A,P": {
+      "name": "A,P",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 2. USED TO ADDR. THE P-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "020000"
+      }
+    },
+    "A,PIL": {
+      "name": "A,PIL",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS VALUE IN 'PIL' REGISTER, LOADED BY 'COMM, LDPIL'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000010",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "A,R1": {
+      "name": "A,R1",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 11. USED TO ADDR. REGISTER 11, ADDRESS OR SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "110000"
+      }
+    },
+    "A,R2": {
+      "name": "A,R2",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 12. USED TO ADDR. REGISTER 12, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "120000"
+      }
+    },
+    "A,R3": {
+      "name": "A,R3",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 13. USED TO ADDR. REGISTER 13, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "130000"
+      }
+    },
+    "A,R4": {
+      "name": "A,R4",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 14. USED TO ADDR. REGISTER 14, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "140000"
+      }
+    },
+    "A,R5": {
+      "name": "A,R5",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 15. USED TO ADDR. REGISTER 15, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "150000"
+      }
+    },
+    "A,R6": {
+      "name": "A,R6",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 16. USED TO ADDA. REGISTER 16, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "160000"
+      }
+    },
+    "A,R7": {
+      "name": "A,R7",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 17. USED TO ADDR. REGISTER 17, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "170000"
+      }
+    },
+    "A,REG": {
+      "name": "A,REG",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS VALUE OF 'INSTR. BITS 3-6' LOADED BY LAST 'T,MAPJ'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000020",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "A,SRCE": {
+      "name": "A,SRCE",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS VALUE OF 'INSTR. BITS 3-5' LOADED BY LAST 'T,MAPJ'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000024",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "A,STS": {
+      "name": "A,STS",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 10. USED TO ADDR. REGISTER 10, STATUS OR SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "100000"
+      }
+    },
+    "A,T": {
+      "name": "A,T",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 6. USED TO ADDR. THE T-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "060000"
+      }
+    },
+    "A,X": {
+      "name": "A,X",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS 7. USED TO ADDR. THE X-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "070000"
+      }
+    },
+    "A,Z": {
+      "name": "A,Z",
+      "category": "A_REG",
+      "displayLine": 1,
+      "description": "A-OP. IS O. USED TO ADDR. ZERO REG., STATUS OR SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "AB,ACTLV": {
+      "name": "AB,ACTLV",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING 'ACTIVE LEVELS'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000017",
+        "w1": "140000"
+      }
+    },
+    "AB,BAUD": {
+      "name": "AB,BAUD",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "BAUD RATE THUMBWHEEL VALUE",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000010",
+        "w1": "010000"
+      }
+    },
+    "AB,BPFLG": {
+      "name": "AB,BPFLG",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD INDICATING THAT BREAKPOINT IS ON",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000013",
+        "w1": "140000"
+      }
+    },
+    "AB,BRKPT": {
+      "name": "AB,BRKPT",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING BREAKPOINT ADDRESS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000016",
+        "w1": "140000"
+      }
+    },
+    "AB,CDIGI": {
+      "name": "AB,CDIGI",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "COUNTER CONTROLLING NUMBER OF DIGITS IN AN OCTAL NUMBER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000011",
+        "w1": "170000"
+      }
+    },
+    "AB,CMBNK": {
+      "name": "AB,CMBNK",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "GLOBAL POINTER TO THE CORE MAP TABLE BANK",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000017",
+        "w1": "120000"
+      }
+    },
+    "AB,CNT10": {
+      "name": "AB,CNT10",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "COUNTER CONTROLLING NO. OF OCTAL NOS/LINE IN MOPC DUMP CMND",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000017",
+        "w1": "170000"
+      }
+    },
+    "AB,CURNR": {
+      "name": "AB,CURNR",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD KEEPING CURRENT ADDR IN A MOPC DUMP COMMAND",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000013",
+        "w1": "130000"
+      }
+    },
+    "AB,DEPOS": {
+      "name": "AB,DEPOS",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SOME OCTAL DIGIT WAS WRITTEN SINCE LAST COMMAND TERMINATED",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000017",
+        "w1": "150000"
+      }
+    },
+    "AB,DISPL": {
+      "name": "AB,DISPL",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "TYPE OF RUNNING DISPLAY",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000015",
+        "w1": "160000"
+      }
+    },
+    "AB,DUMPF": {
+      "name": "AB,DUMPF",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD INDICATING THAT A DUMP IS IN PROGRESS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000016",
+        "w1": "150000"
+      }
+    },
+    "AB,EXMOD": {
+      "name": "AB,EXMOD",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING THE 'EXM' REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000011",
+        "w1": "130000"
+      }
+    },
+    "AB,IIE": {
+      "name": "AB,IIE",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCR WORD HOLDING 'PIC' REPRESENTATION OF LAST IIE SETTING",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000012",
+        "w1": "170000"
+      }
+    },
+    "AB,LCIL": {
+      "name": "AB,LCIL",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH REGISTER HOLDING CACHE INHIBIT LOWER LIMIT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000013",
+        "w1": "120000"
+      }
+    },
+    "AB,LMP": {
+      "name": "AB,LMP",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING THE 'LMP' REGISTER VALUE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000012",
+        "w1": "140000"
+      }
+    },
+    "AB,MACL": {
+      "name": "AB,MACL",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING RETRY COUNTER FOR LOAD AFTER MACL",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000011",
+        "w1": "140000"
+      }
+    },
+    "AB,MANIR": {
+      "name": "AB,MANIR",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING FLAG FOR MANUAL IR",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000014",
+        "w1": "130000"
+      }
+    },
+    "AB,NOISE": {
+      "name": "AB,NOISE",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SET ON MACL,RESET ON STOP,INHIBIT LOAD AFTER MACL",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000010",
+        "w1": "020000"
+      }
+    },
+    "AB,NUMBR": {
+      "name": "AB,NUMBR",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING AN OCTAL NUMBER BEING PRINTED BY MOPC",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000012",
+        "w1": "120000"
+      }
+    },
+    "AB,OCTA2": {
+      "name": "AB,OCTA2",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "WORD TO EXTEND ADDRESS IN OCTAD TO 24 BITS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000012",
+        "w1": "160000"
+      }
+    },
+    "AB,OCTAD": {
+      "name": "AB,OCTAD",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "ADDRESS OF RUNNING DISPLAY",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000013",
+        "w1": "150000"
+      }
+    },
+    "AB,OCTN2": {
+      "name": "AB,OCTN2",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD EXPANDING THE 'AB, OCTNA' TO 24 BITS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000015",
+        "w1": "130000"
+      }
+    },
+    "AB,OCTNR": {
+      "name": "AB,OCTNR",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD : OCTAL NUMBER ASSEMBLED FROM MOPC-INPUT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000015",
+        "w1": "150000"
+      }
+    },
+    "AB,OLD303": {
+      "name": "AB,OLD303",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SAVED IOX 303 A REG TO SPOT UART DIFFS",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000015",
+        "w1": "050000"
+      }
+    },
+    "AB,OPR": {
+      "name": "AB,OPR",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING THE 'OPR' REGISTER VALUE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000011",
+        "w1": "160000"
+      }
+    },
+    "AB,PGS": {
+      "name": "AB,PGS",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "COPY OF PGS FROM LAST PF/PV",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000015",
+        "w1": "120000"
+      }
+    },
+    "AB,PID": {
+      "name": "AB,PID",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCR WORD HOLDING MICROPROGRAM-KNOWN BITS OF PID REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000014",
+        "w1": "170000"
+      }
+    },
+    "AB,PIE": {
+      "name": "AB,PIE",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING THE 'PIE' REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000013",
+        "w1": "170000"
+      }
+    },
+    "AB,PRCHR": {
+      "name": "AB,PRCHR",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD : THE NEXT CHARACTER TO BE WRITTEN BY MOPC",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000016",
+        "w1": "160000"
+      }
+    },
+    "AB,PVL": {
+      "name": "AB,PVL",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING 'PREVIOUS LEVEL'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000015",
+        "w1": "170000"
+      }
+    },
+    "AB,RONLY": {
+      "name": "AB,RONLY",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "THE EXAMINED REGISTER IS READ-ONLY",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000014",
+        "w1": "150000"
+      }
+    },
+    "AB,SCRAM": {
+      "name": "AB,SCRAM",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCR WD : SCRAMBLED REPRESENTATION OF LETTERS IN MOPC-INPUT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000015",
+        "w1": "140000"
+      }
+    },
+    "AB,SINGL": {
+      "name": "AB,SINGL",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD COUNTING SINGLE-INSTRUCTION",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000014",
+        "w1": "140000"
+      }
+    },
+    "AB,SSAVE": {
+      "name": "AB,SSAVE",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING STS DURING DECIMAL INTRUCTIONS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000016",
+        "w1": "130000"
+      }
+    },
+    "AB,STATUS": {
+      "name": "AB,STATUS",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING THE LATEST 'COMM, SIOC' INFORMATION",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000017",
+        "w1": "160000"
+      }
+    },
+    "AB,STBNK": {
+      "name": "AB,STBNK",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "GLOBAL BANK POINTER TO THE SEGMENT TABLE BANK",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000011",
+        "w1": "120000"
+      }
+    },
+    "AB,STSRT": {
+      "name": "AB,STSRT",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "GLOBAL POINTER TO THE SEGMENT TABLE WITHIN THE BANK",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000016",
+        "w1": "120000"
+      }
+    },
+    "AB,TXT1": {
+      "name": "AB,TXT1",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD : DISPLAY TEXT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000014",
+        "w1": "160000"
+      }
+    },
+    "AB,TXT2": {
+      "name": "AB,TXT2",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD : DISPLAY TEXT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000013",
+        "w1": "160000"
+      }
+    },
+    "AB,UCIL": {
+      "name": "AB,UCIL",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD HOLDING CACHE INHIBIT UPPER LIMIT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000014",
+        "w1": "120000"
+      }
+    },
+    "AB,UPPNR": {
+      "name": "AB,UPPNR",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "SCRATCH WORD KEEPING UPPER ADDR LIMIT IN MOPC DUMP CMND",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000012",
+        "w1": "130000"
+      }
+    },
+    "AB,WRADR": {
+      "name": "AB,WRADR",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "ADDRESS OF VARIABLE IN CASE OF DEPOSIT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000011",
+        "w1": "150000"
+      }
+    },
+    "AB,WRTYP": {
+      "name": "AB,WRTYP",
+      "category": "AB_REG",
+      "displayLine": 1,
+      "description": "TYPE OF VARIABLE IN CASE OF DEPOSIT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000012",
+        "w1": "150000"
+      }
+    },
+    "ALUD,B": {
+      "name": "ALUD,B",
+      "category": "ALUD",
+      "displayLine": 1,
+      "description": "F -> B : F -> Y",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "060000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUD,B,YA": {
+      "name": "ALUD,B,YA",
+      "category": "ALUD",
+      "displayLine": 1,
+      "description": "F -> B : A -> Y",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "040000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUD,NONE": {
+      "name": "ALUD,NONE",
+      "category": "ALUD",
+      "displayLine": 1,
+      "description": "F -> Y",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "020000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUD,Q": {
+      "name": "ALUD,Q",
+      "category": "ALUD",
+      "displayLine": 1,
+      "description": "F -> Q : F -> Y",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUD,SLB": {
+      "name": "ALUD,SLB",
+      "category": "ALUD",
+      "displayLine": 1,
+      "description": "F -> Y : F*2 -> B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "160000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUD,SLD": {
+      "name": "ALUD,SLD",
+      "category": "ALUD",
+      "displayLine": 1,
+      "description": "F -> Y : (F,Q)*2 -> (B,Q)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "140000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUD,SRB": {
+      "name": "ALUD,SRB",
+      "category": "ALUD",
+      "displayLine": 1,
+      "description": "F -> Y : F/2 -> B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "120000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUD,SRD": {
+      "name": "ALUD,SRD",
+      "category": "ALUD",
+      "displayLine": 1,
+      "description": "F -> Y : (F,Q)/2 -> (B,Q)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "100000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,-A": {
+      "name": "ALUF,-A",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "-A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "005000",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,-A-1": {
+      "name": "ALUF,-A-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "-A - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "005000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,-B": {
+      "name": "ALUF,-B",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "-B -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "004600",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,-B-1": {
+      "name": "ALUF,-B-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "-B - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "004600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,-D": {
+      "name": "ALUF,-D",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "-D -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "003600",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,-D-1": {
+      "name": "ALUF,-D-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "-D - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "003600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,-Q": {
+      "name": "ALUF,-Q",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "-Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "004400",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,-Q-1": {
+      "name": "ALUF,-Q-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "-Q - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "004400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A": {
+      "name": "ALUF,A",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "001000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A-1": {
+      "name": "ALUF,A-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "003000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A-B": {
+      "name": "ALUF,A-B",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A - B -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "004200",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A-B-1": {
+      "name": "ALUF,A-B-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A - B - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "004200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A-D": {
+      "name": "ALUF,A-D",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A - D -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "003200",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A-D-1": {
+      "name": "ALUF,A-D-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A - D - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "003200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A-Q": {
+      "name": "ALUF,A-Q",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A - Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "004000",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A-Q-1": {
+      "name": "ALUF,A-Q-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A - Q - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "004000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A+1": {
+      "name": "ALUF,A+1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A + 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "001000",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A+B": {
+      "name": "ALUF,A+B",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A + B -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "000200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A+B+1": {
+      "name": "ALUF,A+B+1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A + B + 1 - >",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "000200",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A+Q": {
+      "name": "ALUF,A+Q",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A + Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,A+Q+1": {
+      "name": "ALUF,A+Q+1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A + Q * 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,ANDAB": {
+      "name": "ALUF,ANDAB",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A /\\ B -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "010200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,ANDAQ": {
+      "name": "ALUF,ANDAQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A /\\ Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "010000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,ANDDA": {
+      "name": "ALUF,ANDDA",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D /\\ A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "011200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,ANDDQ": {
+      "name": "ALUF,ANDDQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D /\\ Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "011400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,B": {
+      "name": "ALUF,B",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "B -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "000600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,B-1": {
+      "name": "ALUF,B-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "B - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "002600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,B-A": {
+      "name": "ALUF,B-A",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "B - A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "002200",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,B-A-1": {
+      "name": "ALUF,B-A-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "B - A - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "002200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,B+1": {
+      "name": "ALUF,B+1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "B + 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "000600",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D": {
+      "name": "ALUF,D",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "001600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D-1": {
+      "name": "ALUF,D-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "005600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D-A": {
+      "name": "ALUF,D-A",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D - A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "005200",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D-A-1": {
+      "name": "ALUF,D-A-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D - A - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "005200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D-Q": {
+      "name": "ALUF,D-Q",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D - Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "005400",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D-Q-1": {
+      "name": "ALUF,D-Q-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D - Q - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "005400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D+1": {
+      "name": "ALUF,D+1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D + 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "001600",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D+A": {
+      "name": "ALUF,D+A",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D + A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "001200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D+A+1": {
+      "name": "ALUF,D+A+1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D + A + 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "001200",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D+Q": {
+      "name": "ALUF,D+Q",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D + Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "001400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,D+Q+1": {
+      "name": "ALUF,D+Q+1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D + Q + 1 - > F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "001400",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,INVA": {
+      "name": "ALUF,INVA",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(A) -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "017000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,INVB": {
+      "name": "ALUF,INVB",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(B) -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "016600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,INVD": {
+      "name": "ALUF,INVD",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(D) -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "017600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,INVQ": {
+      "name": "ALUF,INVQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(Q) -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "016400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,MASKAB": {
+      "name": "ALUF,MASKAB",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(A) /\\ B -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "012200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,MASKAQ": {
+      "name": "ALUF,MASKAQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(A) /\\ Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "012000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,MASKDA": {
+      "name": "ALUF,MASKDA",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(D) /\\ A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "013200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,MASKDQ": {
+      "name": "ALUF,MASKDQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(D) /\\ Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "013400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,ORAB": {
+      "name": "ALUF,ORAB",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A \\/ B -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "006200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,ORAQ": {
+      "name": "ALUF,ORAQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A \\/ Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "006000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,ORDA": {
+      "name": "ALUF,ORDA",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D \\/ A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "007200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,ORDQ": {
+      "name": "ALUF,ORDQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D \\/ Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "007400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,PASSA": {
+      "name": "ALUF,PASSA",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "015000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,PASSB": {
+      "name": "ALUF,PASSB",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "B -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "B",
+      "encoding": {
+        "w4": "014600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,PASSD": {
+      "name": "ALUF,PASSD",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "015600",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,PASSQ": {
+      "name": "ALUF,PASSQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "014400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,Q": {
+      "name": "ALUF,Q",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,Q-1": {
+      "name": "ALUF,Q-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "0 - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "002400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,Q-A": {
+      "name": "ALUF,Q-A",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "Q - A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "002000",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,Q-A-1": {
+      "name": "ALUF,Q-A-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "Q - A - 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "002000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,Q-D": {
+      "name": "ALUF,Q-D",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "Q - D -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "003400",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,Q-D-1": {
+      "name": "ALUF,Q-D-1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "Q - D- 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "003400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,Q+1": {
+      "name": "ALUF,Q+1",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "Q + 1 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000400",
+        "w3": "040000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,XNORAB": {
+      "name": "ALUF,XNORAB",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(A XOR B) -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "016200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,XNORAQ": {
+      "name": "ALUF,XNORAQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(A XOR Q) -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "016000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,XNORDA": {
+      "name": "ALUF,XNORDA",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(D XOR A) -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "017200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,XNORDQ": {
+      "name": "ALUF,XNORDQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "NOT(D XOR Q) -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "017400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,XORAB": {
+      "name": "ALUF,XORAB",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A XOR B -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "014200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,XORAQ": {
+      "name": "ALUF,XORAQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "A XOR Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "014000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,XORDA": {
+      "name": "ALUF,XORDA",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D XOR A -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "A",
+      "encoding": {
+        "w4": "015200",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,XORDQ": {
+      "name": "ALUF,XORDQ",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "D XOR Q -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "015400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUF,ZERO": {
+      "name": "ALUF,ZERO",
+      "category": "ALUF",
+      "displayLine": 1,
+      "description": "0 -> F",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "010400",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUM,FDV": {
+      "name": "ALUM,FDV",
+      "category": "ALUM",
+      "displayLine": 1,
+      "description": "DIVISION ALU MODE. GPR 0 -> ALU-INSTR 3 : LEFT GPR-SHIFT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "020000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUM,FMU": {
+      "name": "ALUM,FMU",
+      "category": "ALUM",
+      "displayLine": 1,
+      "description": "MULTIPLY ALU MODE. GPR 0 -> ALU-INSTR 1 ; RIGHT GPR-SHIFT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "010000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUM,IR": {
+      "name": "ALUM,IR",
+      "category": "ALUM",
+      "displayLine": 1,
+      "description": "SHIFT INSTR. MODE. SH MODE FROM IR-BITS. M IS SET AUTOM.",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "030000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "ALUM,MIC": {
+      "name": "ALUM,MIC",
+      "category": "ALUM",
+      "displayLine": 1,
+      "description": "MICROPROGRAM CONTR. SHIFT. SHIFT MODE FROM 'MIS-BITS'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "B,0": {
+      "name": "B,0",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 0",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "B,1": {
+      "name": "B,1",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 1",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000001",
+        "w1": "000000"
+      }
+    },
+    "B,10": {
+      "name": "B,10",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 10",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000010",
+        "w1": "000000"
+      }
+    },
+    "B,11": {
+      "name": "B,11",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 11",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000011",
+        "w1": "000000"
+      }
+    },
+    "B,12": {
+      "name": "B,12",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 12",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000012",
+        "w1": "000000"
+      }
+    },
+    "B,13": {
+      "name": "B,13",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 13",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000013",
+        "w1": "000000"
+      }
+    },
+    "B,14": {
+      "name": "B,14",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 14",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000014",
+        "w1": "000000"
+      }
+    },
+    "B,15": {
+      "name": "B,15",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 15",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000015",
+        "w1": "000000"
+      }
+    },
+    "B,16": {
+      "name": "B,16",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 16",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000016",
+        "w1": "000000"
+      }
+    },
+    "B,17": {
+      "name": "B,17",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 17",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000017",
+        "w1": "000000"
+      }
+    },
+    "B,2": {
+      "name": "B,2",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 2",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000002",
+        "w1": "000000"
+      }
+    },
+    "B,3": {
+      "name": "B,3",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 3",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000003",
+        "w1": "000000"
+      }
+    },
+    "B,4": {
+      "name": "B,4",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 4",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000004",
+        "w1": "000000"
+      }
+    },
+    "B,5": {
+      "name": "B,5",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 5",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000005",
+        "w1": "000000"
+      }
+    },
+    "B,6": {
+      "name": "B,6",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 6",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000006",
+        "w1": "000000"
+      }
+    },
+    "B,7": {
+      "name": "B,7",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 7",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000007",
+        "w1": "000000"
+      }
+    },
+    "B,A": {
+      "name": "B,A",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 5. USED TO ADDR. THE A-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000005",
+        "w1": "000000"
+      }
+    },
+    "B,B": {
+      "name": "B,B",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 3. USED TO ADDR. THE B-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "004003",
+        "w1": "000000"
+      }
+    },
+    "B,D": {
+      "name": "B,D",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 1. USED TO ADDR. THE D-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000001",
+        "w1": "000000"
+      }
+    },
+    "B,DEST": {
+      "name": "B,DEST",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS VALUE OF 'INSTR. BITS 0-2' LOADED BY LAST 'T,MAPJ'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000001",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "B,L": {
+      "name": "B,L",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 4. USED TO ADDR. THE L-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000004",
+        "w1": "000000"
+      }
+    },
+    "B,LC": {
+      "name": "B,LC",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS VALUE OF THE 'LOOP COUNTER' TWO INSTRUCTIONS AGO",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000003",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "B,P": {
+      "name": "B,P",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 2. USED TO ADDR. THE P-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "004002",
+        "w1": "000000"
+      }
+    },
+    "B,R1": {
+      "name": "B,R1",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 11. USED TO ADDR. REG. 11, ADDR. OR SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000011",
+        "w1": "000000"
+      }
+    },
+    "B,R2": {
+      "name": "B,R2",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 12. USED TO ADDR. REG. 12, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000012",
+        "w1": "000000"
+      }
+    },
+    "B,R3": {
+      "name": "B,R3",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP, IS 13. USED TO ADDR. REG. 13. SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000013",
+        "w1": "000000"
+      }
+    },
+    "B,R4": {
+      "name": "B,R4",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 14. USED TO ADDR. REG. 14. SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000014",
+        "w1": "000000"
+      }
+    },
+    "B,R5": {
+      "name": "B,R5",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 15. USED TO ADDR. REG. 15, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000015",
+        "w1": "000000"
+      }
+    },
+    "B,R6": {
+      "name": "B,R6",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 16. USED TO ADDR. REG. 16, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000016",
+        "w1": "000000"
+      }
+    },
+    "B,R7": {
+      "name": "B,R7",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 17. USED TO ADDR. REG. 17, SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000017",
+        "w1": "000000"
+      }
+    },
+    "B,SRCE": {
+      "name": "B,SRCE",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS VALUE OF 'INSTR. BITS 3-5' LOADED BY LAST 'T,MAPJ'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000002",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "B,STS": {
+      "name": "B,STS",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 10. USED TO ADDR. REG. 10, STATUS OR SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000010",
+        "w1": "000000"
+      }
+    },
+    "B,T": {
+      "name": "B,T",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 6. USED TO ADDR. THE T-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000006",
+        "w1": "000000"
+      }
+    },
+    "B,X": {
+      "name": "B,X",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS 7. USED TO ADDR. THE X-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "004007",
+        "w1": "000000"
+      }
+    },
+    "B,Z": {
+      "name": "B,Z",
+      "category": "B_REG",
+      "displayLine": 1,
+      "description": "B-OP. IS O. USED TO ADDR. ZERO REG. , STATUS OR SCRATCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,ADCS": {
+      "name": "COMM,ADCS",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SET CONTROL STORE ADDRESS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000036",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AREAD,*": {
+      "name": "COMM,AREAD,*",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ P-RELATIVE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000030",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AREAD,B": {
+      "name": "COMM,AREAD,B",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ ,B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002030",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AREAD,I": {
+      "name": "COMM,AREAD,I",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ I & I,B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004030",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AREAD,NEXT": {
+      "name": "COMM,AREAD,NEXT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ NEXT ADDRESS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006031",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AREAD,X": {
+      "name": "COMM,AREAD,X",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ ,X",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006030",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AREAD,XB": {
+      "name": "COMM,AREAD,XB",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ , B,X",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000031",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AREAD,XI": {
+      "name": "COMM,AREAD,XI",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ I,X & I,B,X",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002031",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AWRITE,*": {
+      "name": "COMM,AWRITE,*",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE P-RELATIVE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000032",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AWRITE,B": {
+      "name": "COMM,AWRITE,B",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE ,B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002032",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AWRITE,HOLD": {
+      "name": "COMM,AWRITE,HOLD",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE IN LAST ADDRESS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004033",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AWRITE,I": {
+      "name": "COMM,AWRITE,I",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE I & I,B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004032",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AWRITE,NEXT": {
+      "name": "COMM,AWRITE,NEXT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE IN NEXT ADDRESS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006033",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AWRITE,X": {
+      "name": "COMM,AWRITE,X",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE ,X",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006032",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AWRITE,XB": {
+      "name": "COMM,AWRITE,XB",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE ,X,B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000033",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,AWRITE,XI": {
+      "name": "COMM,AWRITE,XI",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE I,X & I,X,B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002033",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CCLR": {
+      "name": "COMM,CCLR",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "CLEAR CACHE (BIT 3 OF CSR MUST BE 0 BEFORE START)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004021",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CJMP,F=0": {
+      "name": "COMM,CJMP,F=0",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JUMP IF F =0",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004023",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CJMP,F15": {
+      "name": "COMM,CJMP,F15",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JUMP IF F15 =1",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000023",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CJMP,NF=0": {
+      "name": "COMM,CJMP,NF=0",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JUMP IF F <> 0",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006023",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CJMP,NF15": {
+      "name": "COMM,CJMP,NF15",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JUMP IF F15 -0",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002023",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CLFF": {
+      "name": "COMM,CLFF",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "CLEAR THE 'OOD' AND THE 'DZD' FLIP-FLOPS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000016",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,CLIRQ": {
+      "name": "COMM,CLIRQ",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "PREVENT JUMP TO INTR VECT. REMOVE 'PANEL'-EFF ON IRQ-TEST",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000004",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,CLRTC": {
+      "name": "COMM,CLRTC",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "CLEAR THE 20 MS CLOCK FLIP-FLOP",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000015",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,CNEXT,CRY": {
+      "name": "COMM,CNEXT,CRY",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SKIP MLS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004024",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CNEXT,F=0": {
+      "name": "COMM,CNEXT,F=0",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SKIP VEQ",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004025",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CNEXT,F15": {
+      "name": "COMM,CNEXT,F15",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SKIP GEQ",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000025",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CNEXT,NCRY": {
+      "name": "COMM,CNEXT,NCRY",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SKIP MGR",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006024",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CNEXT,NF=0": {
+      "name": "COMM,CNEXT,NF=0",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SKIP EQL",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006025",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CNEXT,NF15": {
+      "name": "COMM,CNEXT,NF15",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SKIP LSS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002025",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CNEXT,NSGR": {
+      "name": "COMM,CNEXT,NSGR",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SKIP GRE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002024",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CNEXT,NWP": {
+      "name": "COMM,CNEXT,NWP",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "EXECUTE NEXT INSTRUCTION IF P NOT CHANGED IN LAST CYCLE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006022",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CNEXT,SGR": {
+      "name": "COMM,CNEXT,SGR",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SKIP LST",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000024",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,CONTINUE": {
+      "name": "COMM,CONTINUE",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "FETCH NEW INSTRUCTION RELATIVE TO P",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006027",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,DERQ": {
+      "name": "COMM,DERQ",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "DEPOSIT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006035",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,EPIC": {
+      "name": "COMM,EPIC",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "A-OPERAND IS AN INSTRUCTION TO 'PIC' (PRIORITY INT CONTA)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000011",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,EWRF": {
+      "name": "COMM,EWRF",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "IDB -> REGISTER FILE WORD ADDRESSED BY A-OP AND B-OP",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "requires": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000003",
+        "w2": "004000",
+        "w1": "000000"
+      }
+    },
+    "COMM,EXRQ": {
+      "name": "COMM,EXRQ",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "EXAMINE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006034",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,IDENT": {
+      "name": "COMM,IDENT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "IDENT BUS REQUEST",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004037",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,IOX": {
+      "name": "COMM,IOX",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "10X BUS REQUEST",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006037",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,IREAD,APT": {
+      "name": "COMM,IREAD,APT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "INDIRECT ADDRESS READ (APT-RELATIVE)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002022",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,IREAD,PT": {
+      "name": "COMM,IREAD,PT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "INDIRECT ADDRESS READ (PT-RELATIVE)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000022",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,IREAD2": {
+      "name": "COMM,IREAD2",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ FIRST PART OF 32-BIT INDIRECT ADDRESS",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004031",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,JMP,*": {
+      "name": "COMM,JMP,*",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JMP P-RELATIVE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000026",
+        "w2": "002040",
+        "w1": "000000"
+      }
+    },
+    "COMM,JMP,B": {
+      "name": "COMM,JMP,B",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JMP ,B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002026",
+        "w2": "002040",
+        "w1": "000000"
+      }
+    },
+    "COMM,JMP,I": {
+      "name": "COMM,JMP,I",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JMP I & I,B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004026",
+        "w2": "002040",
+        "w1": "000000"
+      }
+    },
+    "COMM,JMP,X": {
+      "name": "COMM,JMP,X",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JMP ,X",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006026",
+        "w2": "002040",
+        "w1": "000000"
+      }
+    },
+    "COMM,JMP,XB": {
+      "name": "COMM,JMP,XB",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JMP ,X,B",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000027",
+        "w2": "002040",
+        "w1": "000000"
+      }
+    },
+    "COMM,JMP,XI": {
+      "name": "COMM,JMP,XI",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "JMP I,X & I,B,X",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002027",
+        "w2": "002040",
+        "w1": "000000"
+      }
+    },
+    "COMM,LBCONT": {
+      "name": "COMM,LBCONT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "USED IN PREX-INSTRUCTION ONLY",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004027",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDDOMI": {
+      "name": "COMM,LDDOMI",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "LOAD SINTRAN-4 DOMAIN REGISTER",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002020",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDEXM": {
+      "name": "COMM,LDEXM",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "LOAD EXAMINE MODE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006021",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDGPR": {
+      "name": "COMM,LDGPR",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "IDB -> GENERAL-PURPOSE-REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000002",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDIRV": {
+      "name": "COMM,LDIRV",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "LOAD INSTRUCTION REGISTER FOR OR-LOGIC USE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006020",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDLC": {
+      "name": "COMM,LDLC",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "LOAD THE 'LOOP COUNTER' WITH THE 6 LOWER IDB-BITS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000017",
+        "w2": "004000",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDPANC": {
+      "name": "COMM,LDPANC",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SEND ONE BYTE TO IR 0",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004006",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDPCR": {
+      "name": "COMM,LDPCR",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "LOAD PCR (NUMBER DETERMINED BY PIL)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006006",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDPIL": {
+      "name": "COMM,LDPIL",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "IDB BITS 8-15 -> STATUS BITS 8-15",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000001",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDPS": {
+      "name": "COMM,LDPS",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "LOAD SINTRAN-4 PS REGISTER",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004020",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,LDSEG": {
+      "name": "COMM,LDSEG",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "LOAD SEGMENT REGISTER (SELECTS PHYSICAL 64K AREA)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000020",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,MACL": {
+      "name": "COMM,MACL",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "HARD RESET. MASTER CLEAR WITH LOAD CONTROL STORE",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004036",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,MAP": {
+      "name": "COMM,MAP",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "USE IDB AS INSTRUCTION (AS IN EXR)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004022",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,RDRQ,APT": {
+      "name": "COMM,RDRQ,APT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ ALTERNATIVE-PT-RELATIVE, ADDRESS FROM IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002034",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,RDRQ,HOLD": {
+      "name": "COMM,RDRQ,HOLD",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ FROM LAST USED PT. ADDRESS FROM IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004034",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,RDRQ,PT": {
+      "name": "COMM,RDRQ,PT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ PAGE-TABLE-RELATIVE, ADDRESS FROM IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000034",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,RSDA": {
+      "name": "COMM,RSDA",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "RESET DATA AVAILABLE IN 'UART'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000005",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,RWCS": {
+      "name": "COMM,RWCS",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "READ OR WRITE IN CONTROL STORE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002036",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,SIOC": {
+      "name": "COMM,SIOC",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "LOAD 'I/O-CONTROL' REGISTER (TERMINAL-1, CLK-INTS, ETC. )",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000007",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,SLOW": {
+      "name": "COMM,SLOW",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SLOW CYCLE (200 NS)",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000010",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,SLOW1": {
+      "name": "COMM,SLOW1",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SLOW CYCLE",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000010",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,SLOW2": {
+      "name": "COMM,SLOW2",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SLOW CYCLE",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000010",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,SMPID": {
+      "name": "COMM,SMPID",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SET MICRO-PID. PID-BITS WHERE IDB IS '1' ARE FORCED TO '1'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000012",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "COMM,SSEMA": {
+      "name": "COMM,SSEMA",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "THE NEXT REQUEST IS A SEMAPHOR REQUEST",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002021",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,SSTOP": {
+      "name": "COMM,SSTOP",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "SET THE 'STOP' FLIP-FLOP",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000014",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,START": {
+      "name": "COMM,START",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "RESET THE 'STOP' FLIP-FLOP",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000013",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,TBSTR": {
+      "name": "COMM,TBSTR",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "'TRANSMIT BUFFER STROBE' TO 'UART' IDB 0-7 -> 'UART'",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000006",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,UART,COM": {
+      "name": "COMM,UART,COM",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "CONSOLE COMMAND-REGISTER",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006005",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,UART,DATA": {
+      "name": "COMM,UART,DATA",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "CONSOLE DATA-REGISTERS",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000005",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,UART,MODE": {
+      "name": "COMM,UART,MODE",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "CONSOLE MODE-REGISTERS 1/2",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004005",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,UART,STATUS": {
+      "name": "COMM,UART,STATUS",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "CONSOLE STATUS-REGISTER",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002005",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COMM,WALBR": {
+      "name": "COMM,WALBR",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE ALTERNATIVE LOGICAL BANK REGISTER",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006036",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,WCIHM": {
+      "name": "COMM,WCIHM",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE CACHE INHIBIT MAP (BIT 15 =1 IS NORMAL, = 0 IS INH)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000021",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,WLBR": {
+      "name": "COMM,WLBR",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE LOGICAL BANK REGISTER",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004036",
+        "w2": "004040",
+        "w1": "000000"
+      }
+    },
+    "COMM,WRRQ,APT": {
+      "name": "COMM,WRRQ,APT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE APT-RELATIVE, ADDRESS FROM IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002035",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,WRRQ,HOLD": {
+      "name": "COMM,WRRQ,HOLD",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE IN LAST USED PT, ADDRESS FROM IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004035",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,WRRQ,PT": {
+      "name": "COMM,WRRQ,PT",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "WRITE PT-RELATIVE, ADDRESS FROM IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000035",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "COMM,XSLOW": {
+      "name": "COMM,XSLOW",
+      "category": "COMM",
+      "displayLine": 2,
+      "description": "MAKE EXTRA SLOW CYCLE (425 NS)",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006036",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "COND,COND": {
+      "name": "COND,COND",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "COND FOR TEST IS OUTCOME OF LATEST TEST (DELAYS TESTS)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000160"
+      }
+    },
+    "COND,CRY": {
+      "name": "COND,CRY",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS 'CARRY' FROM ALU",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000260"
+      }
+    },
+    "COND,DZD": {
+      "name": "COND,DZD",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "COND FOR TESTING IS THE 'DOUBLE-ZERO-DETECT' FLIP-FLOP",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000000"
+      }
+    },
+    "COND,F=0": {
+      "name": "COND,F=0",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS 'ALL ZEROS' FROM ALU",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000340"
+      }
+    },
+    "COND,F11": {
+      "name": "COND,F11",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS BIT 11 FROM ALU",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000300"
+      }
+    },
+    "COND,F15": {
+      "name": "COND,F15",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS BIT 15 FROM ALU",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000320"
+      }
+    },
+    "COND,FETCH": {
+      "name": "COND,FETCH",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS LAST MEMORY REQUEST WAS FETCH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000100"
+      }
+    },
+    "COND,IRQ": {
+      "name": "COND,IRQ",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "COND FOR TEST IS 'IRQ'. CHECKS LEV 10-15 IF 'COMM, CLIRQ'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000040"
+      }
+    },
+    "COND,LC=0": {
+      "name": "COND,LC=0",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS 'LOOP-COUNTER' CONTENT =0",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000020"
+      }
+    },
+    "COND,OOD": {
+      "name": "COND,OOD",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS THE 'ONE-OUT-DETECT' FLIP-FLOP",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000120"
+      }
+    },
+    "COND,OVF": {
+      "name": "COND,OVF",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS 'OVERFLOW' FROM ALU",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000240"
+      }
+    },
+    "COND,PXM": {
+      "name": "COND,PXM",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS PREFIX-MODE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000220"
+      }
+    },
+    "COND,RESTR": {
+      "name": "COND,RESTR",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "COND FOR TESTING IS 'RESTRICTED-MODE'. TRUE IF RING 0-1",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000060"
+      }
+    },
+    "COND,STP": {
+      "name": "COND,STP",
+      "category": "COND",
+      "displayLine": 3,
+      "description": "CONDITION FOR TESTING IS 'STOP'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "COND",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000400",
+        "w1": "000360"
+      }
+    },
+    "CONDENABL": {
+      "name": "CONDENABL",
+      "category": "SPECIAL",
+      "displayLine": 3,
+      "description": "ENABLE COND. SEQ. , USE 'FALSE' SPECS IF CONDITION FALSE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000200",
+        "w1": "000000"
+      }
+    },
+    "CRY,C": {
+      "name": "CRY,C",
+      "category": "CRY",
+      "displayLine": 1,
+      "description": "STATUS C -> CARRY IN",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "100000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "CRY,GPR": {
+      "name": "CRY,GPR",
+      "category": "CRY",
+      "displayLine": 1,
+      "description": "GPR BIT 0 -> CARRY IN",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "140000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "F,HOLD": {
+      "name": "F,HOLD",
+      "category": "F_STK",
+      "displayLine": 3,
+      "description": "FALSE STACK OPERATION IS HOLD. USED WITH A COND SETTING",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "F_STK",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "F,JMP": {
+      "name": "F,JMP",
+      "category": "F_SEQ",
+      "displayLine": 3,
+      "description": "FALSE SEQUENCE IS JUMP. USED WITH A CONDITION SETTING",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "F_SEQ",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "F,LOAD": {
+      "name": "F,LOAD",
+      "category": "F_STK",
+      "displayLine": 3,
+      "description": "FALSE STACK OPERATION IS LOAD. USED WITH A COND SETTING",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "F_STK",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000002"
+      }
+    },
+    "F,NEXT": {
+      "name": "F,NEXT",
+      "category": "F_SEQ",
+      "displayLine": 3,
+      "description": "FALSE SEQUENCE IS NEXT. USED WITH A CONDITION SETTING",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "F_SEQ",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000010"
+      }
+    },
+    "F,POP": {
+      "name": "F,POP",
+      "category": "F_STK",
+      "displayLine": 3,
+      "description": "FALSE STACK OPERATION IS POP. USED WITH A COND SETTING",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "F_STK",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000001"
+      }
+    },
+    "F,PUSH": {
+      "name": "F,PUSH",
+      "category": "F_STK",
+      "displayLine": 3,
+      "description": "FALSE STACK OPERATION IS PUSH. USED WITH A COND SETTING",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "F_STK",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000003"
+      }
+    },
+    "F,RETURN": {
+      "name": "F,RETURN",
+      "category": "F_SEQ",
+      "displayLine": 3,
+      "description": "FALSE SEQUENCE IS RETURN, USED WITH A CONDITION SETTING",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "F_SEQ",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000004"
+      }
+    },
+    "IDBS,AARG": {
+      "name": "IDBS,AARG",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "A-OPERAND-ARGUMENT'10 (0-170) -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "requires": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000600",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,ALD": {
+      "name": "IDBS,ALD",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "AUTOMATIC LOAD DESCRIPTOR & PRINT STATUS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001300",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,ALU": {
+      "name": "IDBS,ALU",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "ARITHMETIC-LOGIC-UNIT -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,ARG": {
+      "name": "IDBS,ARG",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "ARGUMENT (MICRO-INSTRUCTION-BITS 0-15) => IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000200",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,BARG": {
+      "name": "IDBS,BARG",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "B-OPERAND-ARGUMENT (0-17) -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "requires": "B",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000400",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,BMG": {
+      "name": "IDBS,BMG",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "BIT-MASK-GENERATOR -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "requires": "A",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000040",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,CSR": {
+      "name": "IDBS,CSR",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "CACHE STATUS REGISTER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001200",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,DBR": {
+      "name": "IDBS,DBR",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "DATA-BUS-REGISTER -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000140",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,DSABL": {
+      "name": "IDBS,DSABL",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "DConstants.IsABLE IDBS (USED TO READ 'PIC'-INFO, EXCEPT PIC-STS)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000740",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,GPR": {
+      "name": "IDBS,GPR",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "GENERAL-PURPOSE-REGISTER -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000100",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,GPR,SEXT": {
+      "name": "IDBS,GPR,SEXT",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "GPR BITS 0-7 (WITH BITS 8-15 EQUAL TO BIT 7) -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001100",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,INR": {
+      "name": "IDBS,INR",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "READ INSTALLATION NUMBER",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001640",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,IOR": {
+      "name": "IDBS,IOR",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "UART DATA AND STATUS -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000700",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,LA": {
+      "name": "IDBS,LA",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "LOGICAL ADDRESS USED BY 'ALU' WHEN JUMP",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001600",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,LBR": {
+      "name": "IDBS,LBR",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "READ LBR FROM LA BUS (MUST HAVE COMM,PLBR)",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001500",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,MAPANS": {
+      "name": "IDBS,MAPANS",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "IR 0 USED BY TRA-INSTRUCTION",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001040",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,MIPANS": {
+      "name": "IDBS,MIPANS",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "IR 0 USED BY MOPC",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001000",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,PANEL": {
+      "name": "IDBS,PANEL",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "PANEL VECTOR",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001340",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,PCR": {
+      "name": "IDBS,PCR",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "READ PAGING CONTROL REGISTER (NUMBER SELECTED BY PIL)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001240",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,PEA": {
+      "name": "IDBS,PEA",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "PEA-REGISTER -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000500",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,PES": {
+      "name": "IDBS,PES",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "PES-REGISTER -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000540",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,PGS": {
+      "name": "IDBS,PGS",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "PAGING STATUS ACCORDING TO LAST REQUEST (NEVER LOCKED)",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001140",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,PIC": {
+      "name": "IDBS,PIC",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "PRIORITY-INTERRUPT-CONTROL STATUS REGISTER -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000640",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,PICM": {
+      "name": "IDBS,PICM",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "INTERRUPT MASK REGISTER. CGA.",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001700",
+        "w2": "000040",
+        "w1": "000000"
+      }
+    },
+    "IDBS,PICVC": {
+      "name": "IDBS,PICVC",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "INTERRUPT VECTOR",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001440",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,RCS": {
+      "name": "IDBS,RCS",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "READ CONTROL STORE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001400",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,REG": {
+      "name": "IDBS,REG",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "REGISTER-FILE -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "requires": "AB",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000240",
+        "w2": "006000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,STS": {
+      "name": "IDBS,STS",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "STATUS => IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000300",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,SWAP": {
+      "name": "IDBS,SWAP",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "BYTE-SWAP OF LAST IDB -> IDB",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000440",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "IDBS,UART": {
+      "name": "IDBS,UART",
+      "category": "IDBS",
+      "displayLine": 2,
+      "description": "READ FROM THE REG. ADDRESSED BY COMM,UART",
+      "models": [
+        "nd120"
+      ],
+      "nd120Only": true,
+      "provides": "IDBS",
+      "encoding": {
+        "w4": "000000",
+        "w3": "001740",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "LCOUNT": {
+      "name": "LCOUNT",
+      "category": "SPECIAL",
+      "displayLine": 2,
+      "description": "COUNT LOOP-COUNTER : IF FALSE 'RETURN'&'HOLD'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000100",
+        "w1": "000000"
+      }
+    },
+    "MIS,LIN": {
+      "name": "MIS,LIN",
+      "category": "MIS",
+      "displayLine": 1,
+      "description": "SPECIFIES LINK-END-INPUT SHIFT IF 'ALUM. MIC'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "006000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "MIS,ROT": {
+      "name": "MIS,ROT",
+      "category": "MIS",
+      "displayLine": 1,
+      "description": "SPECIFIES ROTATIONAL SHIFT IF 'ALUM, MIC'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "002000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "MIS,ZIN": {
+      "name": "MIS,ZIN",
+      "category": "MIS",
+      "displayLine": 1,
+      "description": "SPECIFIES ZERO-END-INPUT SHIFT IF 'ALUM, MIC'",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000000",
+        "w3": "004000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "PIC,IOF": {
+      "name": "PIC,IOF",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 15. USED TO GIVE 'IOF' CMD. TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "150000"
+      }
+    },
+    "PIC,ION": {
+      "name": "PIC,ION",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 17. USED TO GIVE 'ION' CMD. TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "170000"
+      }
+    },
+    "PIC,LMSK": {
+      "name": "PIC,LMSK",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 16. USED TO GIVE 'LOAD MASK' CMD. TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "160000"
+      }
+    },
+    "PIC,LOSTS": {
+      "name": "PIC,LOSTS",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 11. USED TO GIVE 'LOAD STATUS' CMD. TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "110000"
+      }
+    },
+    "PIC,MCL": {
+      "name": "PIC,MCL",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 0. USED TO GIVE 'MASTER CLEAR' CMD. TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "PIC,MCLMSK": {
+      "name": "PIC,MCLMSK",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 12. USED TO GIVE 'MASKED CLEAR MASK' CMD TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "120000"
+      }
+    },
+    "PIC,MCLPID": {
+      "name": "PIC,MCLPID",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 2. USED TO GIVE 'MASKED CLEAR PID' CMD. TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "020000"
+      }
+    },
+    "PIC,MSTMSK": {
+      "name": "PIC,MSTMSK",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 13. USED TO GIVE 'MASKED SET MASK' CMD. TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "130000"
+      }
+    },
+    "PIC,RMSK": {
+      "name": "PIC,RMSK",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 7. USED TO GIVE 'READ MASK' CMD. TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "070000"
+      }
+    },
+    "PIC,RSTS": {
+      "name": "PIC,RSTS",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 6. USED TO GIVE 'READ STATUS' CMD. TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "060000"
+      }
+    },
+    "PIC,RVECT": {
+      "name": "PIC,RVECT",
+      "category": "PIC",
+      "displayLine": 1,
+      "description": "A-OP. IS 5. USED TO GIVE 'READ-VECTOR' COMMAND TO INTSYS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "PIC",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "050000"
+      }
+    },
+    "STS,EA": {
+      "name": "STS,EA",
+      "category": "STS",
+      "displayLine": 1,
+      "description": "CRY -> STS C : OVF -> STS Q : OVF \\/ STS O -> STS O",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000040",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "STS,ES": {
+      "name": "STS,ES",
+      "category": "STS",
+      "displayLine": 1,
+      "description": "ALU SHIFT OUTPUT -> STATUS M",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000100",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "STS,LO": {
+      "name": "STS,LO",
+      "category": "STS",
+      "displayLine": 1,
+      "description": "IDB-BITS 0-7 -> STATUS-BITS 0-7",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "encoding": {
+        "w4": "000140",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "T,HOLD": {
+      "name": "T,HOLD",
+      "category": "T_STK",
+      "displayLine": 2,
+      "description": "TRUE STACK OPERATION IS HOLD",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "T_STK",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "T,JMP": {
+      "name": "T,JMP",
+      "category": "T_SEQ",
+      "displayLine": 2,
+      "description": "TRUE SEQUENCE IS JUMP",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "T_SEQ",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    },
+    "T,JMP0-3": {
+      "name": "T,JMP0-3",
+      "category": "T_SEQ",
+      "displayLine": 2,
+      "description": "TRUE SEQ IS JUMP. IR0-3 CONTROLS THE 4 LOWER JUMP ADDR BITS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "T_SEQ",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "001000",
+        "w1": "000000"
+      }
+    },
+    "T,JMPAOPR": {
+      "name": "T,JMPAOPR",
+      "category": "T_SEQ",
+      "displayLine": 2,
+      "description": "TRUE SEQ IS JUMP. A-OP CONTROLS THE 4 LOWER JUMP ADDR BITS",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "T_SEQ",
+      "encoding": {
+        "w4": "000000",
+        "w3": "006000",
+        "w2": "001000",
+        "w1": "000000"
+      }
+    },
+    "T,LOAD": {
+      "name": "T,LOAD",
+      "category": "T_STK",
+      "displayLine": 2,
+      "description": "TRUE STACK OPERATION IS LOAD",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "T_STK",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "020000",
+        "w1": "000000"
+      }
+    },
+    "T,NEXT": {
+      "name": "T,NEXT",
+      "category": "T_SEQ",
+      "displayLine": 2,
+      "description": "TRUE SEQUENCE IS NEXT",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "T_SEQ",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "100000",
+        "w1": "000000"
+      }
+    },
+    "T,POP": {
+      "name": "T,POP",
+      "category": "T_STK",
+      "displayLine": 2,
+      "description": "TRUE STACK OPERATION IS POP",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "T_STK",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "010000",
+        "w1": "000000"
+      }
+    },
+    "T,PUSH": {
+      "name": "T,PUSH",
+      "category": "T_STK",
+      "displayLine": 2,
+      "description": "TRUE STACK OPERATION IS PUSH",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "T_STK",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "030000",
+        "w1": "000000"
+      }
+    },
+    "T,REPEAT": {
+      "name": "T,REPEAT",
+      "category": "T_SEQ",
+      "displayLine": 2,
+      "description": "TRUE SEQUENCE IS REPEAT - repeats the current microinstruction",
+      "models": [
+        "nd110"
+      ],
+      "nd120Only": false,
+      "provides": "T_SEQ",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "140000",
+        "w1": "000000"
+      }
+    },
+    "T,RETURN": {
+      "name": "T,RETURN",
+      "category": "T_SEQ",
+      "displayLine": 2,
+      "description": "TRUE SEQUENCE IS RETURN",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "T_SEQ",
+      "encoding": {
+        "w4": "000000",
+        "w3": "000000",
+        "w2": "040000",
+        "w1": "000000"
+      }
+    },
+    "XRF": {
+      "name": "XRF",
+      "category": "SPECIAL",
+      "displayLine": 1,
+      "description": "SELECT EXTENDED REGISTER FILE",
+      "models": [
+        "nd110",
+        "nd120"
+      ],
+      "nd120Only": false,
+      "provides": "AB",
+      "encoding": {
+        "w4": "000004",
+        "w3": "000000",
+        "w2": "000000",
+        "w1": "000000"
+      }
+    }
+  },
+  "runtime": {
+    "alufFormulas": {
+      "ALUF,PASSD": "F = D",
+      "ALUF,PASSA": "F = A",
+      "ALUF,PASSB": "F = B",
+      "ALUF,PASSQ": "F = Q",
+      "ALUF,ZERO": "F = 0",
+      "ALUF,INVD": "F = ~D",
+      "ALUF,INVA": "F = ~A",
+      "ALUF,INVB": "F = ~B",
+      "ALUF,INVQ": "F = ~Q",
+      "ALUF,D": "F = D",
+      "ALUF,A": "F = A",
+      "ALUF,B": "F = B",
+      "ALUF,Q": "F = Q",
+      "ALUF,D+1": "F = D + 1",
+      "ALUF,A+1": "F = A + 1",
+      "ALUF,B+1": "F = B + 1",
+      "ALUF,Q+1": "F = Q + 1",
+      "ALUF,D-1": "F = D - 1",
+      "ALUF,A-1": "F = A - 1",
+      "ALUF,B-1": "F = B - 1",
+      "ALUF,Q-1": "F = Q - 1",
+      "ALUF,-D": "F = -D",
+      "ALUF,-A": "F = -A",
+      "ALUF,-B": "F = -B",
+      "ALUF,-Q": "F = -Q",
+      "ALUF,-D-1": "F = -D - 1",
+      "ALUF,-A-1": "F = -A - 1",
+      "ALUF,-B-1": "F = -B - 1",
+      "ALUF,-Q-1": "F = -Q - 1",
+      "ALUF,D+A": "F = D + A",
+      "ALUF,D+Q": "F = D + Q",
+      "ALUF,A+B": "F = A + B",
+      "ALUF,A+Q": "F = A + Q",
+      "ALUF,A+B+1": "F = A + B + 1",
+      "ALUF,D+A+1": "F = D + A + 1",
+      "ALUF,D+Q+1": "F = D + Q + 1",
+      "ALUF,A+Q+1": "F = A + Q + 1",
+      "ALUF,Q-A": "F = Q - A",
+      "ALUF,B-A": "F = B - A",
+      "ALUF,A-D": "F = A - D",
+      "ALUF,Q-D": "F = Q - D",
+      "ALUF,A-Q": "F = A - Q",
+      "ALUF,A-B": "F = A - B",
+      "ALUF,D-A": "F = D - A",
+      "ALUF,D-Q": "F = D - Q",
+      "ALUF,Q-A-1": "F = Q - A - 1",
+      "ALUF,B-A-1": "F = B - A - 1",
+      "ALUF,A-D-1": "F = A - D - 1",
+      "ALUF,Q-D-1": "F = Q - D - 1",
+      "ALUF,A-Q-1": "F = A - Q - 1",
+      "ALUF,A-B-1": "F = A - B - 1",
+      "ALUF,D-A-1": "F = D - A - 1",
+      "ALUF,D-Q-1": "F = D - Q - 1",
+      "ALUF,ANDAQ": "F = A & Q",
+      "ALUF,ANDAB": "F = A & B",
+      "ALUF,ANDDA": "F = D & A",
+      "ALUF,ANDDQ": "F = D & Q",
+      "ALUF,ORAQ": "F = A | Q",
+      "ALUF,ORAB": "F = A | B",
+      "ALUF,ORDA": "F = D | A",
+      "ALUF,ORDQ": "F = D | Q",
+      "ALUF,XORAQ": "F = A ^ Q",
+      "ALUF,XORAB": "F = A ^ B",
+      "ALUF,XORDA": "F = D ^ A",
+      "ALUF,XORDQ": "F = D ^ Q",
+      "ALUF,XNORAQ": "F = ~(A ^ Q)",
+      "ALUF,XNORAB": "F = ~(A ^ B)",
+      "ALUF,XNORDA": "F = ~(D ^ A)",
+      "ALUF,XNORDQ": "F = ~(D ^ Q)",
+      "ALUF,MASKAQ": "F = ~A & Q",
+      "ALUF,MASKAB": "F = ~A & B",
+      "ALUF,MASKDA": "F = ~D & A",
+      "ALUF,MASKDQ": "F = ~D & Q"
+    },
+    "idbsSources": {
+      "IDBS,ALU": "ALU Y output (feeds F or A-register depending on ALUD)",
+      "IDBS,BMG": "Bit-mask generator: 1 << A_Operand (single-bit test/set mask)",
+      "IDBS,GPR": "General-Purpose shift register",
+      "IDBS,DBR": "Data Bus Register (latched from last memory read)",
+      "IDBS,ARG": "Microinstruction bits 15:0 (the literal from source)",
+      "IDBS,REG": "Register file[AOP, BOP] (selected by RASEL/RBSEL overrides)",
+      "IDBS,STS": "STATUS register (PIL + ALU flags)",
+      "IDBS,BARG": "B-operand field (BOP, small 4-5 bit immediate)",
+      "IDBS,SWAP": "Byte-swapped copy of previous cycle's IDB",
+      "IDBS,PEA": "Parity Error Address",
+      "IDBS,PES": "Parity Error Status",
+      "IDBS,AARG": "A-operand field * 8 (AOP << 3)",
+      "IDBS,PIC": "PIC internal status (requires EPIC command)",
+      "IDBS,IOR": "UART data and status",
+      "IDBS,DSABL": "Disable - IDB not driven by IDBS (PIC may override)",
+      "IDBS,MIPANS": "Panel status (read without clearing)",
+      "IDBS,MAPANS": "Panel status (read and clear bit 12)",
+      "IDBS,GPR,SEXT": "GPR sign-extended from bit 7",
+      "IDBS,PGS": "Paging status (virtual address + fetch indicator)",
+      "IDBS,CSR": "Cache Status Register",
+      "IDBS,PCR": "Paging Control Register (selected by PIL)",
+      "IDBS,ALD": "Auto-Load Descriptor (thumbwheel / boot switches)",
+      "IDBS,PANEL": "Panel interrupt vector",
+      "IDBS,RCS": "Read Control Store (microcode RAM)",
+      "IDBS,PICVC": "PIC vectored interrupt address",
+      "IDBS,LBR": "Logical Bank Register",
+      "IDBS,LA": "Logical Address (jump target)",
+      "IDBS,INR": "Installation Number (unique system ID)",
+      "IDBS,PICM": "PIC mask register (ND-120)",
+      "IDBS,UART": "UART data (ND-120)"
+    },
+    "commEffects": {
+      "COMM,LDPIL": {
+        "reads": "IDB",
+        "writes": "STATUS[15:8] <- IDB[15:8]",
+        "uses_a": false,
+        "uses_b": false
+      },
+      "COMM,LDGPR": {
+        "reads": "IDB",
+        "writes": "GPR register",
+        "uses_a": false,
+        "uses_b": false
+      },
+      "COMM,EWRF": {
+        "reads": "IDB",
+        "writes": "RegisterFile[AOP, BOP] <- IDB",
+        "uses_a": true,
+        "uses_b": true,
+        "notes": "The register file written is selected by RASEL_RegisterFile\n(RF, RF1, RF2, RF3). This is the primary way to update\nregister-file slots with the IDB value.\n"
+      },
+      "COMM,LDLC": {
+        "reads": "IDB[5:0]",
+        "writes": "Loop Counter",
+        "uses_a": false,
+        "uses_b": false,
+        "timing_note": "LC is not available as A-operand source until two microinstructions\nlater (pipelined through the MIC sequencer).\n"
+      },
+      "COMM,LDPCR": {
+        "reads": "IDB",
+        "writes": "PCR (Paging Control Register, indexed by PIL)",
+        "uses_a": false
+      },
+      "COMM,LDSEG": {
+        "reads": "IDB",
+        "writes": "Segment Register"
+      },
+      "COMM,LDDOMI": {
+        "reads": "IDB",
+        "writes": "SINTRAN-IV Domain Register"
+      },
+      "COMM,LDPS": {
+        "reads": "IDB",
+        "writes": "SINTRAN-IV PS Register"
+      },
+      "COMM,LDIRV": {
+        "reads": "IDB",
+        "writes": "IR (for OR-logic use)"
+      },
+      "COMM,LDEXM": {
+        "reads": "IDB",
+        "writes": "Examine Mode"
+      },
+      "COMM,LDPANC": {
+        "reads": "IDB[7:0]",
+        "writes": "Panel IR0 (one byte)"
+      },
+      "COMM,SMPID": {
+        "reads": "IDB",
+        "writes": "PIC micro-PID (set bits only)"
+      },
+      "COMM,SIOC": {
+        "reads": "IDB[7:0]",
+        "writes": "I/O Control (RTC, ints)"
+      },
+      "COMM,WCIHM": {
+        "reads": "IDB",
+        "writes": "Cache Inhibit Map"
+      },
+      "COMM,EPIC": {
+        "uses_a": true,
+        "notes": "A-operand is the PIC command code. Data direction depends on command."
+      },
+      "COMM,CLIRQ": {
+        "writes": "Clear INTRQN flip-flop"
+      },
+      "COMM,START": {
+        "writes": "Clear STOP flip-flop"
+      },
+      "COMM,SSTOP": {
+        "writes": "Set STOP flip-flop"
+      },
+      "COMM,CLRTC": {
+        "writes": "Clear 20ms RTC interrupt"
+      },
+      "COMM,CLFF": {
+        "writes": "Clear DZD/OOD flip-flops"
+      }
+    },
+    "aludBehavior": {
+      "0": {
+        "name": "QREG",
+        "y_bus": "F",
+        "q_update": "Q := F",
+        "b_register_write": null,
+        "shift": "none"
+      },
+      "1": {
+        "name": "NOP",
+        "y_bus": "F",
+        "q_update": null,
+        "b_register_write": null,
+        "shift": "none",
+        "note": "ALU result travels on the Y bus (consumed by IDB source 0) but is not stored."
+      },
+      "2": {
+        "name": "RAMA",
+        "y_bus": "Reg[AOP]",
+        "q_update": null,
+        "b_register_write": "Reg[BOP] := F",
+        "shift": "none"
+      },
+      "3": {
+        "name": "RAMF",
+        "y_bus": "F",
+        "q_update": null,
+        "b_register_write": "Reg[BOP] := F",
+        "shift": "none",
+        "note": "Standard result write. The B register selected by B,<name> gets F.\nThis is the most common ALU destination.\n"
+      },
+      "4": {
+        "name": "RAMQD",
+        "y_bus": "F",
+        "q_update": "Q := Q >> 1 (Q[15] <- QLI)",
+        "b_register_write": "Reg[BOP] := F >> 1 (F[15] <- RRI)",
+        "shift": "right_double",
+        "note": "Double right-shift for multiply/divide sequences."
+      },
+      "5": {
+        "name": "RAMD",
+        "y_bus": "F",
+        "q_update": null,
+        "b_register_write": "Reg[BOP] := F >> 1 (F[15] <- RRI)",
+        "shift": "right_single"
+      },
+      "6": {
+        "name": "RAMQU",
+        "y_bus": "F",
+        "q_update": "Q := Q << 1 (Q[0] <- QLI)",
+        "b_register_write": "Reg[BOP] := F << 1 (F[0] <- RLI)",
+        "shift": "left_double"
+      },
+      "7": {
+        "name": "RAMU",
+        "y_bus": "F",
+        "q_update": null,
+        "b_register_write": "Reg[BOP] := F << 1 (F[0] <- RLI)",
+        "shift": "left_single"
+      }
+    },
+    "aluSources": {
+      "0": {
+        "name": "A_Q",
+        "R": "A register",
+        "S": "Q (internal)",
+        "am2901": "AQ"
+      },
+      "1": {
+        "name": "A_B",
+        "R": "A register",
+        "S": "B register",
+        "am2901": "AB"
+      },
+      "2": {
+        "name": "O_Q",
+        "R": "0 (constant)",
+        "S": "Q (internal)",
+        "am2901": "ZQ"
+      },
+      "3": {
+        "name": "O_B",
+        "R": "0 (constant)",
+        "S": "B register",
+        "am2901": "ZB"
+      },
+      "4": {
+        "name": "O_A",
+        "R": "0 (constant)",
+        "S": "A register",
+        "am2901": "ZA"
+      },
+      "5": {
+        "name": "D_A",
+        "R": "D (IDB latched)",
+        "S": "A register",
+        "am2901": "DA"
+      },
+      "6": {
+        "name": "D_Q",
+        "R": "D (IDB latched)",
+        "S": "Q (internal)",
+        "am2901": "DQ"
+      },
+      "7": {
+        "name": "D_O",
+        "R": "D (IDB latched)",
+        "S": "0 (constant)",
+        "am2901": "DZ"
+      }
+    }
+  }
+}

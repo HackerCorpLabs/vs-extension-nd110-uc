@@ -1,0 +1,3 @@
+[submodule "external/meta"]
+	path = external/meta
+	url = git@github.com:HackerCorpLabs/nd-microcode-meta.git

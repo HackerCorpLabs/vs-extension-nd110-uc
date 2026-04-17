@@ -1,0 +1,145 @@
+{
+  "name": "nd-microcode",
+  "displayName": "ND-100/110/120 Microcode",
+  "description": "Syntax highlighting and hover documentation for ND-100/110/120 microcode (.uc) files",
+  "version": "0.1.0",
+  "publisher": "nd100uc",
+  "license": "MIT",
+  "engines": {
+    "vscode": "^1.73.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HackerCorpLabs/vs-extension-nd110-uc.git"
+  },
+  "main": "./out/extension.js",
+  "activationEvents": [
+    "onLanguage:uc",
+    "onCommand:nd-microcode.assembleCurrent",
+    "onCommand:nd-microcode.assembleAndSplit",
+    "onCommand:nd-microcode.disassembleBinary",
+    "onCommand:nd-microcode.assembleLine",
+    "onCommand:nd-microcode.openBitView"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "uc",
+        "aliases": [
+          "ND-100 MicroCode",
+          "ND-110 MicroCode",
+          "ND-120 MicroCode",
+          "uc"
+        ],
+        "extensions": [
+          ".uc"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "uc",
+        "scopeName": "source.uc",
+        "path": "./syntaxes/uc.tmLanguage.json"
+      }
+    ],
+    "commands": [
+      {
+        "command": "nd-microcode.assembleCurrent",
+        "title": "Assemble current .uc file to .CODE",
+        "category": "ND Microcode"
+      },
+      {
+        "command": "nd-microcode.assembleAndSplit",
+        "title": "Assemble and split into ROM chip images",
+        "category": "ND Microcode"
+      },
+      {
+        "command": "nd-microcode.disassembleBinary",
+        "title": "Import binary (.CODE / ROM) and disassemble to .uc",
+        "category": "ND Microcode"
+      },
+      {
+        "command": "nd-microcode.assembleLine",
+        "title": "Show assembled bits for current instruction",
+        "category": "ND Microcode"
+      },
+      {
+        "command": "nd-microcode.openBitView",
+        "title": "Open live bit-breakdown view",
+        "category": "ND Microcode"
+      }
+    ],
+    "menus": {
+      "editor/context": [
+        {
+          "command": "nd-microcode.assembleCurrent",
+          "when": "editorLangId == uc",
+          "group": "nd-microcode@1"
+        },
+        {
+          "command": "nd-microcode.assembleAndSplit",
+          "when": "editorLangId == uc",
+          "group": "nd-microcode@2"
+        },
+        {
+          "command": "nd-microcode.assembleLine",
+          "when": "editorLangId == uc",
+          "group": "nd-microcode@3"
+        },
+        {
+          "command": "nd-microcode.openBitView",
+          "when": "editorLangId == uc",
+          "group": "nd-microcode@4"
+        }
+      ]
+    },
+    "configuration": {
+      "title": "ND-100/110/120 MicroCode",
+      "properties": {
+        "nd-microcode.hover.showEncoding": {
+          "type": "boolean",
+          "default": true,
+          "description": "Show the raw octal encoding (w1-w4) in hover tooltips."
+        },
+        "nd-microcode.hover.showModelWarnings": {
+          "type": "boolean",
+          "default": true,
+          "description": "Highlight ND-120-only tokens in hover tooltips."
+        },
+        "nd-microcode.defaultModel": {
+          "type": "string",
+          "enum": [
+            "nd110",
+            "nd120"
+          ],
+          "default": "nd110",
+          "description": "Default model when assembling or disassembling. Used if no //#MODEL comment is found."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "generate": "node scripts/generate-hover-data.mjs && node scripts/snapshot-defs.mjs",
+    "compile": "tsc -p ./",
+    "bundle": "node scripts/build-bundle.mjs",
+    "watch": "tsc -watch -p ./",
+    "build": "npm run generate && npm run compile && npm run bundle",
+    "package": "npm run build && vsce package -o nd-microcode.vsix"
+  },
+  "dependencies": {
+    "@nd100uc/microcode": "file:external/meta/lib/ts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/vscode": "^1.73.0",
+    "@vscode/vsce": "^3.9.0",
+    "esbuild": "^0.28.0",
+    "js-yaml": "^4.1.0",
+    "typescript": "^5.6.0"
+  }
+}

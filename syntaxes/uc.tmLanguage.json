@@ -1,0 +1,259 @@
+{
+  "$schema": "https://raw.githubusercontent.com/martinring/tmlanguage/master/tmlanguage.json",
+  "scopeName": "source.uc",
+  "name": "ND-100/110/120 MicroCode",
+  "patterns": [
+    {
+      "include": "#comments"
+    },
+    {
+      "include": "#labels"
+    },
+    {
+      "include": "#addressMarker"
+    },
+    {
+      "include": "#nd120Only"
+    },
+    {
+      "include": "#opcodes"
+    },
+    {
+      "include": "#end"
+    },
+    {
+      "include": "#numerics"
+    }
+  ],
+  "repository": {
+    "comments": {
+      "patterns": [
+        {
+          "match": "(%).*$",
+          "name": "comment.line.percent.uc"
+        }
+      ]
+    },
+    "labels": {
+      "patterns": [
+        {
+          "match": "^\\s*([A-Z_][A-Z0-9_]*):",
+          "name": "entity.name.function.label.uc"
+        }
+      ]
+    },
+    "addressMarker": {
+      "patterns": [
+        {
+          "match": "^\\s*([0-7]+)/",
+          "name": "entity.name.section.address.uc"
+        }
+      ]
+    },
+    "end": {
+      "patterns": [
+        {
+          "match": ";",
+          "name": "punctuation.terminator.statement.uc"
+        }
+      ]
+    },
+    "nd120Only": {
+      "patterns": [
+        {
+          "match": "\\b(?:COMM,UART,STATUS|COMM,UART,DATA|COMM,UART,MODE|COMM,UART,COM|COMM,XSLOW|COMM,SLOW|COMM,MACL|IDBS,PICM|IDBS,UART|AB,OLD303|AB,NOISE|AB,BAUD)\\b",
+          "name": "keyword.other.nd120-only.uc"
+        }
+      ]
+    },
+    "opcodes": {
+      "patterns": [
+        {
+          "include": "#AB_REG"
+        },
+        {
+          "include": "#A_REG"
+        },
+        {
+          "include": "#B_REG"
+        },
+        {
+          "include": "#PIC"
+        },
+        {
+          "include": "#ALUF"
+        },
+        {
+          "include": "#ALUD"
+        },
+        {
+          "include": "#ALUM"
+        },
+        {
+          "include": "#STS"
+        },
+        {
+          "include": "#CRY"
+        },
+        {
+          "include": "#MIS"
+        },
+        {
+          "include": "#IDBS"
+        },
+        {
+          "include": "#COMM"
+        },
+        {
+          "include": "#TF"
+        },
+        {
+          "include": "#COND"
+        },
+        {
+          "include": "#SPECIAL"
+        }
+      ]
+    },
+    "AB_REG": {
+      "patterns": [
+        {
+          "match": "\\b(?:AB,STATUS|AB,OLD303|AB,CDIGI|AB,UPPNR|AB,CURNR|AB,CNT10|AB,PRCHR|AB,SCRAM|AB,OCTNR|AB,DISPL|AB,OCTAD|AB,OCTA2|AB,DEPOS|AB,DUMPF|AB,RONLY|AB,WRTYP|AB,WRADR|AB,ACTLV|AB,OCTN2|AB,NUMBR|AB,BRKPT|AB,SINGL|AB,BPFLG|AB,EXMOD|AB,MANIR|AB,SSAVE|AB,STBNK|AB,STSRT|AB,CMBNK|AB,NOISE|AB,TXT1|AB,TXT2|AB,MACL|AB,UCIL|AB,LCIL|AB,BAUD|AB,PVL|AB,IIE|AB,PID|AB,PIE|AB,OPR|AB,LMP|AB,PGS)\\b",
+          "name": "keyword.operator.ab.uc"
+        }
+      ]
+    },
+    "A_REG": {
+      "patterns": [
+        {
+          "match": "\\b(?:A,SRCE|A,STS|A,PIL|A,REG|A,R1|A,R2|A,R3|A,R4|A,R5|A,R6|A,R7|A,LC|A,10|A,11|A,12|A,13|A,14|A,15|A,16|A,17|A,Z|A,D|A,P|A,B|A,L|A,A|A,T|A,X|A,0|A,1|A,2|A,3|A,4|A,5|A,6|A,7)\\b",
+          "name": "keyword.operator.a.uc"
+        }
+      ]
+    },
+    "B_REG": {
+      "patterns": [
+        {
+          "match": "\\b(?:B,DEST|B,SRCE|B,STS|B,R1|B,R2|B,R3|B,R4|B,R5|B,R6|B,R7|B,LC|B,10|B,11|B,12|B,13|B,14|B,15|B,16|B,17|B,Z|B,D|B,P|B,B|B,L|B,A|B,T|B,X|B,0|B,1|B,2|B,3|B,4|B,5|B,6|B,7)\\b",
+          "name": "keyword.operator.b.uc"
+        }
+      ]
+    },
+    "PIC": {
+      "patterns": [
+        {
+          "match": "\\b(?:PIC,MCLPID|PIC,MCLMSK|PIC,MSTMSK|PIC,LOSTS|PIC,RVECT|PIC,RSTS|PIC,RMSK|PIC,LMSK|PIC,MCL|PIC,IOF|PIC,ION)\\b",
+          "name": "keyword.operator.pic.uc"
+        }
+      ]
+    },
+    "ALUF": {
+      "patterns": [
+        {
+          "match": "\\b(?:ALUF,XNORAQ|ALUF,XNORAB|ALUF,XNORDA|ALUF,XNORDQ|ALUF,MASKAQ|ALUF,MASKAB|ALUF,MASKDA|ALUF,MASKDQ|ALUF,ANDAQ|ALUF,ANDAB|ALUF,ANDDA|ALUF,ANDDQ|ALUF,XORAQ|ALUF,XORAB|ALUF,XORDA|ALUF,XORDQ|ALUF,PASSQ|ALUF,PASSB|ALUF,PASSA|ALUF,PASSD|ALUF,A\\+Q\\+1|ALUF,A\\+B\\+1|ALUF,D\\+A\\+1|ALUF,D\\+Q\\+1|ALUF,Q-A-1|ALUF,B-A-1|ALUF,A-D-1|ALUF,Q-D-1|ALUF,A-Q-1|ALUF,A-B-1|ALUF,D-A-1|ALUF,D-Q-1|ALUF,ORAQ|ALUF,ORAB|ALUF,ORDA|ALUF,ORDQ|ALUF,ZERO|ALUF,INVQ|ALUF,INVB|ALUF,INVA|ALUF,INVD|ALUF,-Q-1|ALUF,-B-1|ALUF,-A-1|ALUF,-D-1|ALUF,A\\+Q|ALUF,A\\+B|ALUF,D\\+A|ALUF,D\\+Q|ALUF,Q\\+1|ALUF,B\\+1|ALUF,A\\+1|ALUF,D\\+1|ALUF,Q-1|ALUF,B-1|ALUF,A-1|ALUF,D-1|ALUF,Q-A|ALUF,B-A|ALUF,A-D|ALUF,Q-D|ALUF,A-Q|ALUF,A-B|ALUF,D-A|ALUF,D-Q|ALUF,-Q|ALUF,-B|ALUF,-A|ALUF,-D|ALUF,Q|ALUF,B|ALUF,A|ALUF,D)",
+          "name": "keyword.operator.aluf.uc"
+        }
+      ]
+    },
+    "ALUD": {
+      "patterns": [
+        {
+          "match": "\\b(?:ALUD,NONE|ALUD,B,YA|ALUD,SRD|ALUD,SRB|ALUD,SLD|ALUD,SLB|ALUD,Q|ALUD,B)\\b",
+          "name": "keyword.operator.alud.uc"
+        }
+      ]
+    },
+    "ALUM": {
+      "patterns": [
+        {
+          "match": "\\b(?:ALUM,FMU|ALUM,FDV|ALUM,MIC|ALUM,IR)\\b",
+          "name": "keyword.operator.alum.uc"
+        }
+      ]
+    },
+    "STS": {
+      "patterns": [
+        {
+          "match": "\\b(?:STS,LO|STS,EA|STS,ES)\\b",
+          "name": "keyword.operator.sts.uc"
+        }
+      ]
+    },
+    "CRY": {
+      "patterns": [
+        {
+          "match": "\\b(?:CRY,GPR|CRY,C)\\b",
+          "name": "keyword.operator.cry.uc"
+        }
+      ]
+    },
+    "MIS": {
+      "patterns": [
+        {
+          "match": "\\b(?:MIS,ROT|MIS,ZIN|MIS,LIN)\\b",
+          "name": "keyword.operator.mis.uc"
+        }
+      ]
+    },
+    "IDBS": {
+      "patterns": [
+        {
+          "match": "\\b(?:IDBS,GPR,SEXT|IDBS,MIPANS|IDBS,MAPANS|IDBS,DSABL|IDBS,PANEL|IDBS,PICVC|IDBS,BARG|IDBS,SWAP|IDBS,AARG|IDBS,ALU|IDBS,BMG|IDBS,GPR|IDBS,DBR|IDBS,ARG|IDBS,REG|IDBS,STS|IDBS,PEA|IDBS,PES|IDBS,PIC|IDBS,IOR|IDBS,PGS|IDBS,CSR|IDBS,PCR|IDBS,ALD|IDBS,RCS|IDBS,LBR|IDBS,INR|IDBS,LA)\\b",
+          "name": "keyword.operator.idbs.uc"
+        }
+      ]
+    },
+    "COMM": {
+      "patterns": [
+        {
+          "match": "\\b(?:COMM,AWRITE,HOLD|COMM,AWRITE,NEXT|COMM,CNEXT,NSGR|COMM,CNEXT,NCRY|COMM,CNEXT,NF15|COMM,CNEXT,NF\\=0|COMM,AREAD,NEXT|COMM,IREAD,APT|COMM,CNEXT,NWP|COMM,CJMP,NF15|COMM,CJMP,NF\\=0|COMM,CNEXT,SGR|COMM,CNEXT,CRY|COMM,CNEXT,F15|COMM,CNEXT,F\\=0|COMM,AWRITE,XB|COMM,AWRITE,XI|COMM,RDRQ,HOLD|COMM,WRRQ,HOLD|COMM,IREAD,PT|COMM,CJMP,F15|COMM,CJMP,F\\=0|COMM,CONTINUE|COMM,AREAD,XB|COMM,AREAD,XI|COMM,AWRITE,\\*|COMM,AWRITE,B|COMM,AWRITE,I|COMM,AWRITE,X|COMM,RDRQ,APT|COMM,WRRQ,APT|COMM,AREAD,\\*|COMM,AREAD,B|COMM,AREAD,I|COMM,AREAD,X|COMM,RDRQ,PT|COMM,WRRQ,PT|COMM,LDPANC|COMM,LDDOMI|COMM,JMP,XB|COMM,JMP,XI|COMM,LBCONT|COMM,IREAD2|COMM,LDPIL|COMM,LDGPR|COMM,CLIRQ|COMM,TBSTR|COMM,LDPCR|COMM,SLOW1|COMM,SLOW2|COMM,SMPID|COMM,START|COMM,SSTOP|COMM,CLRTC|COMM,LDSEG|COMM,LDIRV|COMM,WCIHM|COMM,SSEMA|COMM,LDEXM|COMM,JMP,\\*|COMM,JMP,B|COMM,JMP,I|COMM,JMP,X|COMM,WALBR|COMM,IDENT|COMM,EWRF|COMM,RSDA|COMM,SIOC|COMM,EPIC|COMM,CLFF|COMM,LDLC|COMM,LDPS|COMM,CCLR|COMM,EXRQ|COMM,DERQ|COMM,ADCS|COMM,RWCS|COMM,WLBR|COMM,MAP|COMM,IOX)",
+          "name": "keyword.operator.comm.uc"
+        }
+      ]
+    },
+    "TF": {
+      "patterns": [
+        {
+          "match": "\\b(?:T,JMPAOPR|T,JMP0-3|T,RETURN|T,REPEAT|F,RETURN|T,NEXT|T,HOLD|T,LOAD|T,PUSH|F,NEXT|F,HOLD|F,LOAD|F,PUSH|T,JMP|T,POP|F,JMP|F,POP)",
+          "name": "keyword.control.tf.uc"
+        }
+      ]
+    },
+    "COND": {
+      "patterns": [
+        {
+          "match": "\\b(?:COND,FETCH|COND,RESTR|COND,LC\\=0|COND,COND|COND,STP|COND,PXM|COND,OVF|COND,CRY|COND,F11|COND,F15|COND,F\\=0|COND,IRQ|COND,OOD|COND,DZD)",
+          "name": "keyword.control.cond.uc"
+        }
+      ]
+    },
+    "SPECIAL": {
+      "patterns": [
+        {
+          "match": "\\b(CONDENABL)\\b",
+          "name": "keyword.control.condenable.uc"
+        },
+        {
+          "match": "\\b(LCOUNT|XRF|CONT)\\b",
+          "name": "keyword.other.special.uc"
+        }
+      ]
+    },
+    "numerics": {
+      "patterns": [
+        {
+          "match": "#?-?(0x|&)[0-9a-fA-F_]+\\b",
+          "name": "constant.numeric.hex.uc"
+        },
+        {
+          "match": "\\b[0-7]+\\b",
+          "name": "constant.numeric.oct.uc"
+        },
+        {
+          "match": "#?0b[01]+\\b",
+          "name": "constant.numeric.bin.uc"
+        }
+      ]
+    }
+  }
+}

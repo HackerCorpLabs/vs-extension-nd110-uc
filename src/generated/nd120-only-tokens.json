@@ -1,0 +1,14 @@
+[
+  "AB,BAUD",
+  "AB,NOISE",
+  "AB,OLD303",
+  "COMM,MACL",
+  "COMM,SLOW",
+  "COMM,UART,COM",
+  "COMM,UART,DATA",
+  "COMM,UART,MODE",
+  "COMM,UART,STATUS",
+  "COMM,XSLOW",
+  "IDBS,PICM",
+  "IDBS,UART"
+]

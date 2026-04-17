@@ -1,0 +1,17 @@
+# Exclude source files - the bundled out/extension.js is what ships.
+src/**
+scripts/**
+tsconfig.json
+**/*.map
+
+# Exclude the submodule and node_modules entirely.
+# The library is bundled into out/extension.js by esbuild.
+external/**
+node_modules/**
+
+# Test / dev artifacts
+.vscode/**
+.gitignore
+.gitmodules
+*.vsix
+docs/**
